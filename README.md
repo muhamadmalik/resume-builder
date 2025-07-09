@@ -29,9 +29,3 @@ cd resume-builder
 npm install
 npm run dev
 ```
-
-Open `http://localhost:5173` (or whatever port is used) in your browser to start building your resume.
-
----
-
-Let me know if you'd like help writing a live preview feature, PDF export, or if you want the whole `README.md` file including badges, demo GIFs, or deployment instructions.
