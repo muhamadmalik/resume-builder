@@ -1,11 +1,37 @@
 # React + Vite
 Live: https://resume-builder-work.netlify.app/
 
+## 📝 Resume Builder – React + Tailwind CSS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a **Resume Builder web app** built with **React** and styled using **Tailwind CSS**. It allows users to create, customize, preview, and download professional resumes directly from the browser.
 
-Currently, two official plugins are available:
+### ⚙️ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh.
+* ⚡ Real-time resume editing
+* 🎨 Modern and clean UI with Tailwind CSS
+* 🧠 Dynamic form sections (Education, Experience, Skills, etc.)
+* 🖨️ Download as PDF or print-ready format
+* 💾 Local storage support for saving your data temporarily
+* 📱 Responsive design for desktop and mobile
 
+### 🛠️ Tech Stack
+
+* **React** – For building the interactive UI
+* **Tailwind CSS** – For styling with utility-first CSS
+* **React Icons / Heroicons** – Optional icon sets
+* **html2pdf.js / react-to-print** – For generating downloadable PDFs
+
+### 🚀 Getting Started
+
+```bash
+git clone https://github.com/yourusername/resume-builder.git
+cd resume-builder
+npm install
+npm run dev
+```
+
+Open `http://localhost:5173` (or whatever port is used) in your browser to start building your resume.
+
+---
+
+Let me know if you'd like help writing a live preview feature, PDF export, or if you want the whole `README.md` file including badges, demo GIFs, or deployment instructions.
